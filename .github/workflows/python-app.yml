@@ -20,7 +20,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python 3.10
-      uses: actions/setup-python@v3
+      uses: morphy2k/revive-action@v2.7.8
       with:
         python-version: "3.10"
     - name: Install dependencies
